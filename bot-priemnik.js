@@ -1,7 +1,7 @@
 /* Квиз перед ботом-приёмником: 4 вопроса, затем кнопка в Telegram. Ответы уходят в метку ?start=<метка>_q<формат><техника><опыт>.
-   Младше 18 — вежливый отказ без ссылки. Шаблон: podklyuchit-bota.py подставляет адрес бота вместо https://t.me/WebStudioRabotaBot?start=sajt_webcam-studios-top. */
+   Младше 18 — вежливый отказ без ссылки. Шаблон: podklyuchit-bota.py подставляет адрес бота вместо https://t.me/WebStudioTopBot?start=sajt_webcam-studios-top. */
 (function () {
-  var U = 'https://t.me/WebStudioRabotaBot?start=sajt_webcam-studios-top';
+  var U = 'https://t.me/WebStudioTopBot?start=sajt_webcam-studios-top';
   var Q = [
     { t: 'Вам уже есть 18 лет?', o: ['Да, мне есть 18', 'Нет'] },
     { t: 'Где удобнее работать?', o: ['Из дома', 'В студии', 'Пока не знаю'] },
